@@ -11,3 +11,11 @@ class VectorAndPointTests(unittest.TestCase):
         self.assertEqual(3, p2.x)
         self.assertEqual(6, p2.y)
 
+    def test_two_point_addition(self):
+        p1 = Point(3, 5)
+        p2 = Point(0, 1)
+
+        with self.assertRaises(TypeError) as context:
+            p3 = p1 + p2
+
+
