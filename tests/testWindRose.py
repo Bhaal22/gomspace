@@ -1,5 +1,5 @@
 import unittest
-from src.main import WindRose
+from src.cardinals import WindRose
 
 
 class WindRoseTests(unittest.TestCase):

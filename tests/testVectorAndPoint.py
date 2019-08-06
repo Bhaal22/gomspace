@@ -1,5 +1,5 @@
 import unittest
-from src.main import Point, Vector
+from src.geometry import Point, Vector
 
 
 class VectorAndPointTests(unittest.TestCase):
