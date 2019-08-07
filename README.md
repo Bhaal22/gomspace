@@ -1,4 +1,8 @@
+# dependencies
 
+```shell
+pip3 install flask-restful
+```
 
 # Classes
 
