@@ -13,6 +13,9 @@ class Simulator:
     
     def run(self, steps):
         step = 0
+        if steps < 0:
+            raise Exception('number of steps must be positive(%d)' % steps)
+
         while step < steps:
             print('Step %d' % step)
         
